@@ -28,9 +28,13 @@ margin-left: 250px;
 margin-top: 30px;
   width: 4.4rem;
   height: 4.4rem;
-  background: #f3f3f3;
-  border-color: black;
+  
+  background-clip: 20%;
+  border-color:  5px black;
   border-radius: 0.2rem 0.2rem 1.5rem 1.5rem;
+  background-color: #5abcd8;
+  
+
 
  // Handle 
   &:before {
@@ -77,3 +81,16 @@ margin-top: 30px;
       background-image: linear-gradient(to top, #696969,#C0C0C0);
   
   }
+.mudsample {
+    width:75px ;
+	height:100px;
+	margin-left: 120px;
+    border: 2px ;
+    padding: 20px;
+    border-radius:3.7em 2.6em  /9em 12em ;
+    background-color: #8B4513;
+   <!-- border-bottom: 50px solid #8B4513;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;-->
+ 
+}
