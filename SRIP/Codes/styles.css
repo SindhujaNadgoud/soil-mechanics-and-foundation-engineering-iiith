@@ -28,7 +28,7 @@ margin-left: 250px;
 margin-top: 30px;
   width: 4.4rem;
   height: 4.4rem;
-  
+  float:left;
   background-clip: 20%;
   border-color:  5px black;
   border-radius: 0.2rem 0.2rem 1.5rem 1.5rem;
@@ -70,24 +70,29 @@ margin-top: 30px;
       margin-left: 75px;
      background-image: linear-gradient(to top, #696969,#C0C0C0);
      display: inline-block;
+     float: left;
   }
 
 .bar2
   {
   	 width: 250px;
       height: 18px;
-      margin-left: 175px;
+      margin-left: 250px;
      background-image: linear-gradient(to top, #696969,#C0C0C0);
    display: inline-block;
+   float: left;
   }
 .mudsample {
     width:75px ;
 	height:150px;
-	margin-left: 120px;
+	margin-left: 125px;
     border: 2px ;
     padding: 20px;
     border-radius:3.7em 2.6em  /9em 12em ;
     background-color: #8B4513;
+    display: inline-block;
+    float: left;
+
    <!-- border-bottom: 50px solid #8B4513;
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;-->
@@ -97,10 +102,10 @@ margin-top: 30px;
 .hammer {
 	position: relative;
 	width: 4.063em;
-	height: 15.313em;
-	margin-left: 875px;
-
+	height: 20.313em;
+	margin-left: 150px;
 	display: inline-block;
+  float: left;
 	
 }
 .hammer:before, .hammer:after {
@@ -160,19 +165,49 @@ margin-top: 30px;
 
 .rectbottom
 {
-       width: 250px;
-      height: 45px;
-      margin-left: 500px;
-      background-color: #000;
-     display: inline-block;
+       width: 150px;
+      height: 175px;
+      margin-left: 235px;
+      background-color: #D3D3D3;
+     float: left;
+      display: inline-block;
+    
+}
+.recttop
+{
+       width: 150px;
+      height: 175px;
+      margin-left: 200px;
+      background-color: #D3D3D3;
+    float: left;
+      display: inline-block;
+    
 }
 
-.sqar
-{
-	 width: 200px;
-      height: 100px;
-      background: red;
-      margin-left: 800px;
-      display: inline-block;
 
+.Row
+{
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    border-spacing: 10px;
+    margin-left: 110px;
+}
+.parent {
+  display: flex;
+  flex-direction:row;
+}
+.buttonstart
+{
+   background-color: #003366; 
+  border: none;
+  color: white;
+  width: 50px;
+  height: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  font-color:white;
+  margin-left: 900px;
 }
