@@ -24,7 +24,7 @@ color:#000080;
 
 .cup {
   display: block;
-margin-left: 250px;
+margin-left: 270px;
 margin-top: 30px;
   width: 4.4rem;
   height: 4.4rem;
@@ -67,19 +67,20 @@ margin-top: 30px;
   {
   	 width: 250px;
       height: 18px;
-      margin-left: 75px;
      background-image: linear-gradient(to top, #696969,#C0C0C0);
-  
+
+     display: inline-block;
+     float: left;
   }
 
 .bar2
   {
   	 width: 250px;
       height: 18px;
-      margin-left: 200px;
+      margin-left: 105px;
      background-image: linear-gradient(to top, #696969,#C0C0C0);
    display: inline-block;
-   float: left;
+  
   }
 .mudsample {
     width:75px ;
@@ -166,18 +167,19 @@ margin-top: 30px;
 {
        width: 175px;
       height: 175px;
-      margin-left: 235px;
+      margin-left: 145px;
       background-color: #D3D3D3;
      float: left;
       display: inline-block;
   position: relative;
+  overflow: hidden;
     
 }
 .recttop
 {
        width: 175px;
       height: 120px;
-      margin-left: 195px;
+      margin-left: 202px;
       background-color: #D3D3D3;
     float: left;
       display: inline-block;
@@ -247,7 +249,7 @@ position:absolute;
   width: 25rem;
   height: 80px;
   margin-top: 255px;
-  
+  margin-left: 35px;
 }
 
 .align-center {
@@ -268,7 +270,7 @@ position:absolute;
     inset 0 -0.1rem 0.5rem #7cb5db, 
     0 -0.5rem 1rem #7cb5db ;
   transform: translateY(-8rem);
-  animation: fall 1s linear ;
+  animation: fall .5s linear ;
   opacity: 0;
  display: none;
   animation-iteration-count:8;
@@ -278,3 +280,7 @@ position:absolute;
   90% { transform: scale(0.7, 1); opacity: 1; }
   100% { transform: translateY(0rem) scale(0.7, 0.3); opacity: 0.7 }
  }
+.inline-block
+{
+  display: inline-block;
+}
