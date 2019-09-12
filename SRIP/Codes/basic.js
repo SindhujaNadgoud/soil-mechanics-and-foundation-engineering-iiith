@@ -1,9 +1,12 @@
 
 function myMove() {
-  setTimeout(cuprotate,200);
-  setTimeout(boxmove,9000);
+  setTimeout(pictureChange,200);
+  setTimeout(boxmove,5);
 }
-
+function pictureChange()
+{
+document.getElementById("jug").src="C:/Desktop/GitBash/Git/SRIP/soil-mechanics-and-foundation-engineering-iiith/SRIP/Codes/Images/JugPour.png";
+}
 function boxmove()
 {
   var elem = document.getElementById("recttop");   
@@ -20,20 +23,7 @@ function boxmove()
   }
 }
 
-function cuprotate()
-{
-  document.getElementById("cup").style.transform = "rotate(-45deg)"; 
-   setTimeout(showdrop,600);
-   setTimeout(colourchane, 8000);
-}
 
-function colourchane()
-{
-    document.getElementById("cup").style.backgroundColor="rgba(0,0,0,0.0)";
-}
+
  
- function showdrop()
- {
-   document.getElementById('drop').style.display = "block";
-   document.getElementById('mudsample').style.height="145px";
- }
+ 
