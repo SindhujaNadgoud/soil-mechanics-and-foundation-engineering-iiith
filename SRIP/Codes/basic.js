@@ -1,11 +1,18 @@
 
 function myMove() {
   setTimeout(pictureChange,200);
-  setTimeout(boxmove,5);
+  setTimeout(mudchange,250);
+  setTimeout(hidejug,800);
+  setTimeout(boxmove,700);
+
 }
 function pictureChange()
 {
-document.getElementById("jug").src="C:/Desktop/GitBash/Git/SRIP/soil-mechanics-and-foundation-engineering-iiith/SRIP/Codes/Images/JugPour.png";
+document.getElementById("jug").src="pourresized.png";
+}
+function mudchange()
+{
+  document.getElementById("mud").src="mudfinal.png";
 }
 function boxmove()
 {
@@ -21,6 +28,10 @@ function boxmove()
        
     }
   }
+}
+function hidejug() 
+{
+   document.getElementById("jug").style.visibility = "hidden";
 }
 
 
